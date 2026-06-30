@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5f0024/v1
+canonical_location: https://kanripo.org/bkk/KR5f0024/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 天機經
+  identifiers:
+    alt_id:
+    - DZ1190
+  date: '2015-08-29 02:25:16.718655'
+  source:
+    repository: kanripo
+    path: KR5f0024
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5f0024_000.yaml, hash: 'sha256:344b28cdcc63124433d44207e24af5b4fb43c79882ef4bcfd16462f03709f572'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5f0024_000.markers.yaml, hash: 'sha256:df62b13040a81ae9b74fa9402834a60222c3451f79f5cdca6a7ee0db9b7f698c'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5f0024_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1882
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6bb7e1bf467170302b0bae590c6f81238cc6bd168e483ca5b64d8fa7f91b5adb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
